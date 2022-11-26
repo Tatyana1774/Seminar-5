@@ -3,7 +3,7 @@
 	int[] numbers = new int[size];
 	int sum = 0;
 		
-	FillArrayRandomNumbers(numbers, 0, 20);
+	FillArrayRandomNumbers(numbers, -20, 20);
 	WriteArray(numbers);
 	
 	for(int i = 0; i < numbers.Length; i++)
@@ -20,7 +20,7 @@
 	{
 	    for(int i = 0; i < array.Length; i++)
 	    {
-	        array[i] = new Random().Next(0, 20);
+	        array[i] = new Random().Next(-20, 20);
 	    }
 	}
 	
